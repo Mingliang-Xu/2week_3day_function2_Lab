@@ -109,7 +109,7 @@ Invoke the 'pricesPlusTax' function, passing in the 'prices' array and a callbac
 
 // CODE HERE
 
-pricesPlusTax(prices, (totalCost)=> console.log(`The new array plus tax = ${totalCost}`));
+pricesPlusTax(prices, totalCost => console.log(`The new array plus tax = ${totalCost} ------------`));
 
 ////////// PROBLEM 5 //////////
 
